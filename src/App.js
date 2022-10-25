@@ -6,7 +6,7 @@ const airflowAxios = axios.create({
   baseURL: "http://20.106.154.134:8080/api/v1/",
   headers: {
     accept: "application/json",
-    // "Content-Type": "application/json",
+    "Content-Type": "application/json",
   },
   auth: {
     username: "airflow",
